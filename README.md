@@ -1,16 +1,20 @@
-# tdd_tutorial
+# Introduction to TDD/BLoC/Cubit
 
-A new Flutter project.
+## Description
 
-## Getting Started
+Repo for "Flutter Clean Architecture & TDD BLoC Design Pattern | Industry Standard Code" on Youtube, provided by [dbestech](https://www.youtube.com/@dbestech).
 
-This project is a starting point for a Flutter application.
+This project is intended as training grounds and exploratory programming.
 
-A few resources to get you started if this is your first Flutter project:
+## Topics Explored
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Setting up Clean Architecture;
+- Either/Failure model (Equatable package);
+- Domain layer: Entity/Repository/UseCases;
+- TDD with Dartz/Mocktail: Unit testing on createUsers and getUsers use cases.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Stack
+
+**Front-end:** Flutter;
+**State Management:** BLoC, Cubit;
+**Project Architecture:** Clean Architecture.
