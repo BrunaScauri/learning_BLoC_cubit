@@ -11,10 +11,15 @@ This project is intended as training grounds and exploratory programming.
 - Setting up Clean Architecture;
 - Either/Failure model (Equatable package);
 - Domain layer: Entity/Repository/UseCases;
-- TDD with Dartz/Mocktail: Unit testing on createUsers and getUsers use cases.
+- Data layer: Model;
+- TDD with Dartz/Mocktail: Unit testing on:
+  - createUsers and getUsers use cases;
+  - userModel and authRepositoryImpl;
 
 ## Stack
 
 **Front-end:** Flutter;
+
 **State Management:** BLoC, Cubit;
+
 **Project Architecture:** Clean Architecture.
