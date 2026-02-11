@@ -10,11 +10,10 @@ This project is intended as training grounds and exploratory programming.
 
 - Setting up Clean Architecture;
 - Either/Failure model (Equatable package);
-- Domain layer: Entity/Repository/UseCases;
-- Data layer: Model;
 - TDD with Dartz/Mocktail: Unit testing on:
   - createUsers and getUsers use cases;
   - userModel and authRepositoryImpl;
+- Dependency injection with Get/Cubit;
 
 ## Stack
 
