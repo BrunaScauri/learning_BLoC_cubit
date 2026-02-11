@@ -1,5 +1,7 @@
 # Introduction to TDD/BLoC/Cubit
 
+![App demo gif](lib/assets/read_me_files/app_demo.gif)
+
 ## Description
 
 Repo for "Flutter Clean Architecture & TDD BLoC Design Pattern | Industry Standard Code" on Youtube, provided by [dbestech](https://www.youtube.com/@dbestech).
