@@ -1,5 +1,7 @@
 # Introduction to TDD/BLoC/Cubit
 
+![App demo gif](lib/assets/read_me_files/app_demo.gif)
+
 ## Description
 
 Repo for "Flutter Clean Architecture & TDD BLoC Design Pattern | Industry Standard Code" on Youtube, provided by [dbestech](https://www.youtube.com/@dbestech).
@@ -10,11 +12,10 @@ This project is intended as training grounds and exploratory programming.
 
 - Setting up Clean Architecture;
 - Either/Failure model (Equatable package);
-- Domain layer: Entity/Repository/UseCases;
-- Data layer: Model;
 - TDD with Dartz/Mocktail: Unit testing on:
   - createUsers and getUsers use cases;
   - userModel and authRepositoryImpl;
+- Dependency injection with Get/Cubit;
 
 ## Stack
 

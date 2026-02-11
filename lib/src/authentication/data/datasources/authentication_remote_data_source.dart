@@ -22,7 +22,7 @@ abstract class AuthenticationRemoteDataSource {
 }
 
 const kCreateUserEndpoint = '/test-api/users';
-const kGetUsersEndpoint = '/test-api/user';
+const kGetUsersEndpoint = '/test-api/users';
 
 class AuthRemoteDataSrcImpl implements AuthenticationRemoteDataSource {
   const AuthRemoteDataSrcImpl(this._client);
@@ -38,12 +38,14 @@ class AuthRemoteDataSrcImpl implements AuthenticationRemoteDataSource {
     //check it throws a CUSTOM EXCEPTION with the right message when status code is a bad one
     try {
       final response = await _client.post(
-        Uri.parse('$kBaseUrl$kCreateUserEndpoint'),
+        Uri.https(kBaseUrl, kCreateUserEndpoint),
         body: jsonEncode({
           'createdAt': createdAt,
           'name': name,
-          'avatar': avatar,
         }),
+        headers: {
+          'Content-Type': 'application/json'
+        }
       );
       if (response.statusCode != 200 && response.statusCode != 201) {
         throw ApiFailure(
